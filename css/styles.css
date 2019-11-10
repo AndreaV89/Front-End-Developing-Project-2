@@ -111,7 +111,7 @@ footer {
     
     .name {
         float: left;
-        padding-left: 20px;
+        padding-left: 10px;
     }
 
     .main-nav {
@@ -124,14 +124,10 @@ footer {
 
     .nav li {
         float: left;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
         margin-left: 2px;
         margin-right: 2px;
-    }
-
-    .nav {
-        margin-right: 20px;
     }
 
     .profile-image {
