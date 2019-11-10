@@ -34,10 +34,11 @@ ul {
     padding: 10px 0;
     margin: 10px 15px;
     background: white;
+    transition: all .5s;
 }
 
 .nav li:hover {
-    transform: scale(2);
+    transform: scale(1.1);
 } 
 
 a {
@@ -66,7 +67,7 @@ a:hover {
 .main-nav,
 .contact,
 footer {
-    background-color: #fff7e4;  
+    background-color: #daf9ff;  
 }
 
 .contact {
@@ -100,6 +101,10 @@ footer {
     padding-right: 20px;
 }
 
+.nav {
+    overflow: hidden;
+}
+
 /* Media Queries for wider screens */
 
 @media (min-width: 768px) {
@@ -119,8 +124,8 @@ footer {
 
     .nav li {
         float: left;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
         margin-left: 2px;
         margin-right: 2px;
     }
@@ -164,10 +169,16 @@ footer {
     .footer-nav {
         display: inline-flex;
         float: right;
+        overflow: hidden;
     }
 
     .footer-nav li {
         padding: 0 20px;
+        transform: all .5s;
+    }
+
+    .footer-nav li:hover {
+        transform: scale(1.1);
     }
 
     .clearfix::after {
