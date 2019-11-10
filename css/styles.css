@@ -1,0 +1,202 @@
+
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 20px;
+}
+
+header p {
+    padding: 10px 40px;
+    text-align: center;
+    margin: 0 auto;  
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: auto;
+}
+
+.nav li {
+    padding: 10px 0;
+    margin: 10px 15px;
+    background: white;
+}
+
+.nav li:hover {
+    transform: scale(2);
+} 
+
+a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+a:hover {
+    color: black;
+}
+
+.profile-image{
+    width: 100%;
+    max-width: 300px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    padding: 0 50px;
+}
+
+.main-header,
+.main-nav,
+.contact,
+footer {
+    background-color: #fff7e4;  
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.contact p {
+    padding: 10px 40px;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+.main-footer,
+.contact {
+    overflow: auto;
+}
+
+.footer-nav {
+    display: none;
+}
+
+.footer-name {
+    float: left;
+    padding-left: 20px;
+}
+
+.back-to-top {
+    float: right;
+    padding-right: 20px;
+}
+
+/* Media Queries for wider screens */
+
+@media (min-width: 768px) {
+    
+    .name {
+        float: left;
+        padding-left: 20px;
+    }
+
+    .main-nav {
+        padding: 50px 30px 0 30px;
+    }
+
+    .nav {
+        float: right;
+    }
+
+    .nav li {
+        float: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .nav {
+        margin-right: 20px;
+    }
+
+    .profile-image {
+        float: right;
+        margin: 0 40px 40px 20px;
+    }
+
+    .main-header p {
+        text-align: left;
+        padding-top: 0;
+    }
+
+    .card {
+        float: left;
+        padding-bottom: 70px;
+    }
+
+    .marketing,
+    .search,
+    .travel,
+    .favorite,
+    .gallery,
+    .calculator {
+        width: 50%;    
+    }
+
+    .card img {
+        padding: 0 10px;
+    }
+
+    .back-to-top {
+        display: none;
+    }
+
+    .footer-nav {
+        display: inline-flex;
+        float: right;
+    }
+
+    .footer-nav li {
+        padding: 0 20px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .marketing,
+    .search,
+    .travel,
+    .favorite,
+    .gallery,
+    .calculator {
+        width: 33%;    
+    }
+
+    body {
+        max-width: 1200px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .card {
+        max-height: 400px;
+    }
+}
