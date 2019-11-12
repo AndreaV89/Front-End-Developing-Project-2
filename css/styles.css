@@ -5,7 +5,7 @@
 
 body {
     text-align: center;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Indie Flower', cursive;
     width: 90%;
     margin: 0 auto;
 }
@@ -206,7 +206,11 @@ footer {
         max-height: 400px;
     }
 
-    .nav li {
+    .nav {
         float: right;
+    }
+
+    .nav li {
+        float: left;
     }
 }
